@@ -42,7 +42,7 @@ import "websocket-polyfill";
 // or: require('websocket-polyfill');
 ```
 
-if you get an `crypto is not defined` error, either upgrade to node.js 20 or above, or import it manually:
+if you get a `crypto is not defined` error, either upgrade to node.js 20 or above, or import it manually:
 
 ```js
 import * as crypto from 'crypto'; // or 'node:crypto'
